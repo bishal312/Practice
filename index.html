@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise-3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey;
+    font-family: Arial, sans-serif;
+}
+
+.Container {
+    background-color: #fff;
+    border: 2px solid rgb(220, 220, 220);
+    border-radius: 5px;
+    margin: 60px auto;
+    max-width: 320px;
+    min-height: auto;
+    max-height: 90vh;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow:unset;
+}
+
+.img {
+    text-align: center;
+}
+
+img {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    height: 100%;
+}
+
+.pic-info {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5px 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 5px 0;
+    padding: 0%;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+p {
+    color: rgb(110, 110, 110);
+    font-size: 13px;
+}
+
+.about-me {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.btn-1,
+.btn-2 {
+    background-color: #fff;
+}
+
+.btn-1 a,
+.btn-2 a {
+    display: block; /* Add display property to make the anchor a block element */
+    padding: 1px 5px; /* Adjust padding */
+    margin: auto; /* Adjust margin to separate the buttons */
+    color: rgb(110, 110, 110);
+    text-decoration: none;
+    background-color: #fff;
+    border-radius: 45px;
+}
+
+
+button {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    background-color: rgb(220, 220, 220);
+    color: #fff;
+    padding: 1px 1;
+    border: none;
+    border-radius: 45px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button a {
+    color: rgb(125, 125, 250);
+    text-decoration: none;
+}
+</style>
+<body>
+    <div class="Container">
+        <div class="img">
+            <img src="https://scontent.fbwa1-1.fna.fbcdn.net/v/t39.30808-6/392958428_682726070461977_7509950796401197073_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=aUJ8WpqaT7sAX9ICjLq&_nc_ht=scontent.fbwa1-1.fna&oh=00_AfC_3qNGknnG-SwXQk1fBMgJGQU8nzNWlpWMRh_uysUBBA&oe=6540F787"
+                alt="IMAGE">
+        </div>
+        <div class="pic-info">
+            <button class="btn-1">
+                <a href="https://www.google.com/search?q=Hacker" target="_blank">Hacker</a>
+            </button>
+            <button class="btn-2">
+                <a href="https://www.google.com/search?q=coder" target="_blank">Coder</a>
+            </button>
+        </div>
+        <h1>Personal Information</h1>
+        <div class="info">
+            <p class="paragraph">Bishal Kunwar Magar, an 18-year-old resident of Butwal, Rupandehi, Nepal, is a
+                dedicated student currently pursuing his education in Class 12. Bishal has a keen interest in the world
+                of coding and technology. He is a passionate code learner who is committed to enhancing his programming
+                skills, all in the pursuit of a brighter and more promising future. Bishal's journey in the world of
+                coding is marked by continuous learning and growth as he aspires to make a meaningful impact through his
+                knowledge and skills.</p>
+        </div>
+        <div class="about-me">
+            <button><a href="index.html">Read more</a></button>
+        </div>
+    </div>
+</body>
+</html>
